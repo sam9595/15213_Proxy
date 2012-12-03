@@ -7,18 +7,18 @@
 
 struct cachedata{
 	char *url;
+	char *data;
 	int size;
-	void *start_ptr;
 	int counter;
-	sem_t cachemutex;
 	struct cachedata *next_cache;
 	struct cachedata *prev_cache;
 };
 
 typedef struct cachedata c_data;
 
+void Cache_checker();
 void Cache_init();
 
-int Create_cache(char *url, char *start_ptr, int size);
+int Create_cache( char *url, char *data, int size);
 
 int Get_cachedata(char *url, int browser_fd);
