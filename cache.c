@@ -1,15 +1,23 @@
+/* Ming-Hsiung Hsueh msheuh
+ * Shu-Hao Yu shuhaoy
+ */
+
+
 #include "cache.h"
 
 c_data** CacheHead;
-int globalcounter = 0;
-int hashNum = 20;
-int CachedSize = 0;
+int globalcounter;
+int hashNum;
+int CachedSize;
 void Cache_init(){
     int i;
+    hashNum = 20;
     CacheHead = (c_data**)malloc(hashNum * sizeof(c_data*));
     for(i = 0 ; i < hashNum ;i++){
         CacheHead[i] = NULL;
     }
+    globalcounter = 0;
+    CachedSize = 0;
 }
 void Cache_checker(){
     int i;
@@ -50,6 +58,7 @@ int DeleteLRUCache(){
     c_data* curr;
     c_data* LRU_cache;
     c_data** LRU_head;
+    printf("DELETE LRU CACHE!!!!!!!!!\n");
     int minimunCounter = globalcounter;
     for(i = 0 ; i < hashNum ;i++){
         curr = CacheHead[i];
@@ -78,9 +87,11 @@ int DeleteLRUCache(){
         LRU_cache->prev_cache->next_cache = LRU_cache->next_cache;
         LRU_cache->next_cache->prev_cache = LRU_cache->prev_cache;
     }
+    printf("size :%d LRU URL:%s\n",LRU_cache->size,LRU_cache->url);
+
     CachedSize -= LRU_cache->size;
-    free(LRU_cache->url);
-    free(LRU_cache->data);
+    //    free(LRU_cache->url);
+    //  free(LRU_cache->data);
     free(LRU_cache);
     return 1;
 }

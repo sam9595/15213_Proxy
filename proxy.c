@@ -1,4 +1,6 @@
-// msheuh
+/* Ming-Hsiung Hsueh msheuh
+ * Shu-Hao Yu shuhaoy
+ */
 #include<stdio.h>
 #include<sys/socket.h>
 #include<sys/types.h>
@@ -66,6 +68,7 @@ int setGETheader(const char* buff, char* request, char* hostname){
 		urilength = strlen(hostend) - strlen(uriend);
 		uri = (char*)malloc((urilength+1)*sizeof(char));
 		strncpy(uri,hostend,urilength);
+        uri[urilength] = '\0';
 
 		strcat(request,"GET ");
 		strcat(request,uri);
@@ -194,6 +197,7 @@ void* request (void* data){
 	int error;
 	int byte;
 	int getbyte;
+    int cachehit = 0;
 //	int sendbyte;
 	Signal(SIGPIPE,	SIG_IGN);
     pthread_detach(pthread_self());
@@ -236,9 +240,7 @@ void* request (void* data){
         P(&w);
     V(&mutex);
     if( Get_cachedata(urlname,serverfd) > 0){
-        close(serverfd);
-        pthread_exit(NULL);
-        return NULL;
+        cachehit = 1;
     }
 
     P(&mutex);
@@ -246,6 +248,12 @@ void* request (void* data){
     if(readcnt == 0)
         V(&w);
     V(&mutex);
+    
+    if(cachehit){
+        close(serverfd);
+        pthread_exit(NULL);
+        return NULL;
+    }
 
 
 	if( (clientfd=socket(AF_INET,SOCK_STREAM,0))<0){
@@ -292,7 +300,8 @@ void* request (void* data){
 		if(getbyte<=0)
 			break;
         if(cache_size + getbyte < MAX_OBJECT_SIZE){
-            strcat(cache_buff,get);
+            memcpy(cache_buff + cache_size,get,getbyte);
+//            strcat(cache_buff,get);
             cache_size += getbyte;
         }
 		write(serverfd,get,getbyte);

@@ -1,3 +1,6 @@
+/* Ming-Hsiung Hsueh msheuh
+ * Shu-Hao Yu shuhaoy
+ */
 # include "csapp.h"
 
 # define CHASHED  1

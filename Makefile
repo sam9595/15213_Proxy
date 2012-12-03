@@ -17,6 +17,9 @@ cache.o:	cache.c cache.h csapp.h
 	$(CC) $(CFLAGS) -c cache.c
 
 
+submit:
+	(make clean; cd..; tar cvf proxylab.tar proxylab)
+
 proxy:	proxy.o csapp.o cache.o
 
 all: proxy
