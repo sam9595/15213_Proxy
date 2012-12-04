@@ -125,8 +125,6 @@ int Create_cache( char *url, char *data, int size){
 int Get_cachedata(char *url, int browser_fd){
     int n = hashfunction(url);
     c_data* curr = CacheHead[n];
-    int getbyte;
-    char temp[8192];
     while(curr!=NULL){
         if(!strcmp(url,curr->url)){
             write(browser_fd,curr->data,curr->size);

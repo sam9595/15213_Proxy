@@ -1,0 +1,643 @@
+serverfd:4
+to Start read 3452458752
+finish read byte:309  3452458752
+GET http://www.cnn.com/ HTTP/1.1
+Host: www.cnn.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+
+
+Try to get cached data: 3452458752
+No cached data try connect: 3452458752
+set GET header dont
+GET / HTTP/1.0
+Host: www.cnn.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Connection: close
+
+
+Ready to transmitt data: 3452458752
+serverfd:5
+to Start read 3435349760
+finish read byte:361  3435349760
+GET http://z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3435349760
+No cached data try connect: 3435349760
+set GET header dont
+GET /cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+serverfd:7
+serverfd:10
+to Start read 3355440896
+to Start read 3347048192
+finish read byte:323  3355440896
+GET http://z.cdn.turner.com/cnn/.e/js/libs/jquery-1.7.2.min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3355440896
+No cached data try connect: 3355440896
+set GET header dont
+GET /cnn/.e/js/libs/jquery-1.7.2.min.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+serverfd:11
+to Start read 3338655488
+finish read byte:325  3347048192
+serverfd:14
+GET http://z.cdn.turner.com/cnn/.e/js/libs/jquery.timeago.min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3347048192
+No cached data try connect: 3347048192
+set GET header dont
+GET /cnn/.e/js/libs/jquery.timeago.min.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+serverfd:15
+to Start read 3321870080
+serverfd:18
+to Start read 3313477376
+finish read byte:329  3338655488
+GET http://z.cdn.turner.com/cnn/.e/js/libs/protoaculous.1.8.2.min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3338655488
+No cached data try connect: 3338655488
+set GET header dont
+GET /cnn/.e/js/libs/protoaculous.1.8.2.min.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+to Start read 3330262784
+finish read byte:344  3330262784
+GET http://z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/js/hplib-min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3330262784
+No cached data try connect: 3330262784
+set GET header dont
+GET /cnn/tmpl_asset/static/www_homepage/1883/js/hplib-min.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Ready to transmitt data: 3435349760
+Ready to transmitt data: 3355440896
+Ready to transmitt data: 3347048192
+Ready to transmitt data: 3338655488
+Ready to transmitt data: 3330262784
+finish read byte:360  3321870080
+GET http://i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif HTTP/1.1
+Host: i.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3321870080
+No cached data try connect: 3321870080
+set GET header dont
+GET /cnn/.e/img/3.0/global/header/hdr-main.gif HTTP/1.0
+Host: i.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+finish read byte:361  3313477376
+GET http://i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif HTTP/1.1
+Host: i.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3313477376
+No cached data try connect: 3313477376
+set GET header dont
+GET /cnn/.e/img/3.0/global/header/nav-arrow.gif HTTP/1.0
+Host: i.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Ready to transmitt data: 3313477376
+Ready to transmitt data: 3321870080
+Finish transmitt data: 3452458752
+Finish cached data: 3452458752
+serverfd:19
+to Start read 3452458752
+finish read byte:382  3452458752
+GET http://i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg HTTP/1.1
+Host: i2.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3452458752
+No cached data try connect: 3452458752
+set GET header dont
+GET /cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg HTTP/1.0
+Host: i2.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Ready to transmitt data: 3452458752
+serverfd:4
+to Start read 3305084672
+finish read byte:315  3305084672
+GET http://z.cdn.turner.com/cnn/.e/js/libs/jsmd-312.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3305084672
+No cached data try connect: 3305084672
+set GET header dont
+GET /cnn/.e/js/libs/jsmd-312.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Finish transmitt data: 3313477376
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+Finish cached data: 3313477376
+Ready to transmitt data: 3305084672
+serverfd:13
+to Start read 3313477376
+finish read byte:308  3313477376
+GET http://js.revsci.net/gateway/gw.js?csid=A09801 HTTP/1.1
+Host: js.revsci.net
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3313477376
+No cached data try connect: 3313477376
+set GET header dont
+GET /gateway/gw.js?csid=A09801 HTTP/1.0
+Host: js.revsci.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Finish transmitt data: 3321870080
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3321870080
+Ready to transmitt data: 3313477376
+serverfd:18
+to Start read 3321870080
+finish read byte:340  3321870080
+GET http://ad.insightexpressai.com/adserver/adServer.aspx?publisherID=97 HTTP/1.1
+Host: ad.insightexpressai.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3321870080
+No cached data try connect: 3321870080
+set GET header dont
+GET /adserver/adServer.aspx?publisherID=97 HTTP/1.0
+Host: ad.insightexpressai.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Finish transmitt data: 3452458752
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg
+cached size:843
+cached counter:2
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3452458752
+Ready to transmitt data: 3321870080
+serverfd:9
+to Start read 3452458752
+finish read byte:345  3452458752
+GET http://z.cdn.turner.com/cnn/tmpl_asset/static/www_global/789/js/globallib-min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3452458752
+No cached data try connect: 3452458752
+set GET header dont
+GET /cnn/tmpl_asset/static/www_global/789/js/globallib-min.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Finish transmitt data: 3435349760
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css
+cached size:414
+cached counter:3
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg
+cached size:843
+cached counter:2
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3435349760
+Finish transmitt data: 3355440896
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css
+cached size:414
+cached counter:3
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg
+cached size:843
+cached counter:2
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/jquery-1.7.2.min.js
+cached size:414
+cached counter:4
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3355440896
+serverfd:6
+to Start read 3355440896
+finish read byte:327  3355440896
+GET http://i.cdn.turner.com/cnn/.e/widget/loader/1.0.0/load.min.js HTTP/1.1
+Host: i.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3355440896
+No cached data try connect: 3355440896
+set GET header dont
+GET /cnn/.e/widget/loader/1.0.0/load.min.js HTTP/1.0
+Host: i.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Finish transmitt data: 3338655488
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css
+cached size:414
+cached counter:3
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg
+cached size:843
+cached counter:2
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/jquery-1.7.2.min.js
+cached size:414
+cached counter:4
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/protoaculous.1.8.2.min.js
+cached size:414
+cached counter:5
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3338655488
+Finish transmitt data: 3330262784
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css
+cached size:414
+cached counter:3
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg
+cached size:843
+cached counter:2
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/js/hplib-min.js5
+cached size:414
+cached counter:6
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/jquery-1.7.2.min.js
+cached size:414
+cached counter:4
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/protoaculous.1.8.2.min.js
+cached size:414
+cached counter:5
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3330262784
+serverfd:5
+to Start read 3330262784
+serverfd:12
+finish read byte:320  3330262784
+GET http://icompass.insightexpressai.com/97.js HTTP/1.1
+Host: icompass.insightexpressai.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3330262784
+to Start read 3338655488
+finish read byte:319  3338655488
+No cached data try connect: 3330262784
+GET http://content.dl-rms.com/rms/mother/5721/nodetag.js HTTP/1.1
+Host: content.dl-rms.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3338655488
+set GET header dont
+No cached data try connect: 3338655488
+GET /97.js HTTP/1.0
+Host: icompass.insightexpressai.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+set GET header dont
+GET /rms/mother/5721/nodetag.js HTTP/1.0
+Host: content.dl-rms.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Finish transmitt data: 3347048192
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css
+cached size:414
+cached counter:3
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/nav-arrow.gif
+cached size:846
+cached counter:0
+cached URL :i2.cdn.turner.com/cnn/dam/assets/121204012423-obama-boehner-t1-only-t1-main.jpg
+cached size:843
+cached counter:2
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/jquery.timeago.min.js
+cached size:414
+cached counter:7
+cached URL :z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/js/hplib-min.js5
+cached size:414
+cached counter:6
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/jquery-1.7.2.min.js
+cached size:414
+cached counter:4
+cached URL :z.cdn.turner.com/cnn/.e/js/libs/protoaculous.1.8.2.min.js
+cached size:414
+cached counter:5
+cached URL :i.cdn.turner.com/cnn/.e/img/3.0/global/header/hdr-main.gif
+cached size:843
+cached counter:1
+Finish cached data: 3347048192
+serverfd:14
+to Start read 3347048192
+finish read byte:361  3347048192
+GET http://z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/css/hplib-min.css HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3347048192
+serverfd:10
+to Start read 3347048192
+finish read byte:323  3347048192
+GET http://z.cdn.turner.com/cnn/.e/js/libs/jquery-1.7.2.min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3347048192
+serverfd:14
+to Start read 3347048192
+finish read byte:329  3347048192
+GET http://z.cdn.turner.com/cnn/.e/js/libs/protoaculous.1.8.2.min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3347048192
+serverfd:10
+to Start read 3347048192
+finish read byte:344  3347048192
+GET http://z.cdn.turner.com/cnn/tmpl_asset/static/www_homepage/1883/js/hplib-min.js HTTP/1.1
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:17.0) Gecko/17.0 Firefox/17.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: keep-alive
+Referer: http://www.cnn.com/
+
+
+Try to get cached data: 3347048192
+No cached data try connect: 3347048192
+set GET header dont
+GET /cnn/tmpl_asset/static/www_homepage/1883/js/hplib-min.js HTTP/1.0
+Host: z.cdn.turner.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Proxy-Connection: close
+Referer: http://www.cnn.com/
+Connection: close
+
+
+Ready to transmitt data: 3452458752
+Ready to transmitt data: 3330262784
+Ready to transmitt data: 3355440896
+Ready to transmitt data: 3347048192
+Ready to transmitt data: 3338655488
+Finish transmitt data: 3313477376

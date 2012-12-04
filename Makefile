@@ -18,7 +18,7 @@ cache.o:	cache.c cache.h csapp.h
 
 
 submit:
-	(make clean; cd..; tar cvf proxylab.tar proxylab)
+	(make clean; cd ..; tar cvf proxylab.tar proxylab)
 
 proxy:	proxy.o csapp.o cache.o
 
