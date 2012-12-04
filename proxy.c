@@ -358,7 +358,8 @@ int main(int argc,char* argv[]){
 	/*set the structure and port defined as argv[1]*/
 	serv.sin_family=AF_INET;
 	serv.sin_port=htons(atoi(argv[1]));
-	inet_pton(AF_INET,"127.0.0.1",&serv.sin_addr);
+    serv.sin_addr.s_addr = INADDR_ANY;
+//	inet_pton(AF_INET,"",&serv.sin_addr);
 
 	bind(sockfd,(struct sockaddr*)&serv,sizeof(serv));
 	if(listen(sockfd,1000)<0){
@@ -375,10 +376,7 @@ int main(int argc,char* argv[]){
 			break;
         }
 		printf("serverfd:%d\n",serverfd);
-        int  *valp;
-        while (  (valp = (int*)malloc(sizeof(int))) ==NULL){
-        }
-//        int *valp = (int*)malloc(sizeof(int));
+        int *valp = (int*)malloc(sizeof(int));
         *valp = serverfd;
 		pthread_create(&th,NULL,request,valp);
 	}
