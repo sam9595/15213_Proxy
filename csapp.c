@@ -8,6 +8,7 @@
 /* $begin unixerror */
 void unix_error(char *msg) /* unix-style error */
 {
+
     fprintf(stderr, "%s: %s\n", msg, strerror(errno));
     exit(0);
 }
@@ -562,6 +563,9 @@ ssize_t rio_writen(int fd, void *usrbuf, size_t n)
 	if ((nwritten = write(fd, bufp, nleft)) <= 0) {
 	    if (errno == EINTR)  /* interrupted by sig handler return */
 		nwritten = 0;    /* and call write() again */
+        /*Don't exit when we met EPIPE */
+        else if(errno == EPIPE)
+            return 0;
 	    else
 		return -1;       /* errorno set by write() */
 	}
